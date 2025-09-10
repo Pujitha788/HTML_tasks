@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student form</title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <fieldset style="width: 60%;">
+        <fieldset style="width: 60%;">
+            <legend align="center">Student Details</legend>
+            <form>
+                <label for="name">First name:</label>
+                <input type="text" id="name" name="name" value="" Pattern="[a-zA-Z]+" minlength="3" maxlength="20" placeholder="enter your firstname" required> <br><br>
+                <label for="name1">Last name:</label>&nbsp;
+                <input type="text" id="name1" name="name" value="" Pattern="[a-zA-Z]+" minlength="3" maxlength="20" placeholder="enter your lastname" rewuired> <br><br>
+                <label for="name2">Guardian:</label>  &nbsp;&nbsp;
+                <input type="text" id="name2" name="name" value="" Pattern="[a-zA-Z]+" minlength="3" maxlength="20" placeholder="enter your gurdian name" required> 
+            </form>
+        </fieldset>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <fieldset style="width: 60%;">
+        <legend align="center">Student Contact Details</legend>
+            <form>
+                <label for="phone">Mobile Number:</label>&nbsp;&nbsp;&nbsp;
+                <input type="tel" id="phone" name="phone" value="" pattern="[0-9]{10}" placeholder="7778889997" required> <br><br>
+                <label for="email">Email Id:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" name="email" value="" pattern="^[A-Za-z0-9._%+-]+@gmail\.com$" placeholder="abcd23@gmail.com" required> 
+            </form>
+        </fieldset>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <fieldset style="width: 60%;">
+            <legend align="center">Graduation Details</legend>
+            <form>
+                <label for="ssc">SSC</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="ssc" name="education" value="ssc"><br>
+                <label for="inter">Intermediate</label> &nbsp;
+                <input type="checkbox" id="inter" name="education" value="intermediate"><br>
+                <label for="degree">Degree</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="degree" name="education" value="degree">
+            </form>
+        </fieldset>
+        <br><br>
+        
+        <label for="file">upload your image:</label>
+        <input type="file" id="file" name="image" value="image">
+        <br><br>
+        <label for="resume">upload your resume:</label>
+        <input type="file" id="resume" name="resume" value="resume">
+        <br><br>
+        <label for="salary">Range for Salary Expectations:</label>
+        <input type="range" id="salary" name="salary" value="salary" oninput="out.value=this.value" min="30000" max="50000">
+        <output id="out"></output><br><br>
+        <label for="msg">Comments:</label>
+        <textarea value="message box">type your message</textarea><br><br>
+
+        <input type="submit" value="submit">
+        </fieldset>
+    </body>
+</html>
