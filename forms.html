@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Contact Us Today</h1>
+        <fieldset style="width: 30%;">
+            <form action="https://httpbin.org/get">
+                <center>
+                    <table cellpadding="10">
+                    <tbody>
+                        <tr>
+                            <td><label for="fname">First Name</label></td>
+                            <td><input type="text" id="fname" name="fname" placeholder="First Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lname">Last Name</label></td>
+                            <td><input type="text" id="lname" name="lname" placeholder="Last Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-Mail</label></td>
+                            <td><input type="text" id="email" name="email" placeholder="Email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Phone</label></td>
+                            <td><input type="tel" id="phone" name="phone" placeholder="123-456-789"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Address">Address</label></td>
+                            <td><input type="text" id="Address" name="Address" placeholder="Address"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City</label></td>
+                            <td><input type="text" id="city" name="city" placeholder="city"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="state">State</label></td>
+                            <td><select id="state" name="state">
+                                <option value="" disabled  selected>please select your state</option>
+                                <option value="Ap">Andhra pradesh</option>
+                                <option value="TG">Hyderabad</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Mumbai">Mumbai</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="zipcode">Zip Code</label></td>
+                            <td><input type="text" id="zipcode" name="zipcode" value="zipcode" placeholder="Zip  Code"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="websitename">Website or<br> Domain <br>Name</label></td>
+                            <td><input type="text" id="websitename" name="websitename" value="websitename" placeholder="Website or Domain Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="hosting">Do you<br> have <br>hosting?</label></td>
+                            <td><label for="yes">YES</label>
+                            <input type="radio" id="yes" name="hosting" value="yes"><br>
+                            <label for="no">NO</label>
+                            <input type="radio" id="no" name="hosting" value="no"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="msg">Project<br>Description</label></td>
+                            <td><textarea id="msg" name="message" placeholder="Project Desription" rows="5" cols="15"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="submit"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </center>
+            </form>
+        </fieldset>
+
+            <h2 align="">Task2</h2>
+            <fieldset style="width:20%;">
+                <h1>my feedback form</h1>
+                <center>
+                <form  >
+                    <ul>
+                        <li align="left"><label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="First Name"></li>
+                        <li align="left"><label for="email">E-Mail</label>
+                            <input type="text" id="email" name="email" placeholder="Email"></li>
+                        <li align="left"><label for="pwd">Password</label>
+                            <input type="password" id="pwd" name="password" placeholder="password"></li>
+                        <li align="left"><label>Please check all the emotions that<br> apply to you:</label></li>
+                            <ul type="circle">
+                                <li><label for="angry">Angry</label>
+                                <input type="checkbox" id="angry" name="angry" value="angry"></li>
+                                <li><label for="Sad">Sad</label>
+                                <input type="checkbox" id="sad" name="sad" value="sad"></li>
+                                <li><label for="happy">Happy</label>
+                                <input type="checkbox" id="happy" name="happy" value="happy"></li>
+                                <li><label for="ambivalent">Ambivalent</label>
+                                <input type="checkbox" id="ambivalent" name="ambivalent" value="ambivalent"></li>
+                            </ul>
+                        <li align="left">How satisfied were you with our service?</li>
+                            <ul>
+                                <li><label for="">very satisfieed</label>
+                                    <input type="radio" id="" name="service" value="service"></li>
+                                <li><label for="">satisfieed</label>
+                                    <input type="radio" id="" name="service" value="service"></li>
+                                <li><label for="">didn,t agree</label>
+                                    <input type="radio" id="" name="service" value="service"></li>
+                                <li><label for="">dissatisfieed</label>
+                                    <input type="radio" id="" name="service" value="service"></li>
+                                <li><label for="">very dissatisfieed</label>
+                                    <input type="radio" id="" name="service" value="service"></li>
+                            </ul>
+                        <li align="left">further comments:<br>
+                            <textarea value="message" rows="5 cols=5"></textarea>
+                        </li>
+                        <li align="left">Bio Photo:<br>
+                            <input type="file"></li>
+                        <li>Location visited:
+                            <select>
+                                <option value="">select location</option>
+                                <option value="">andhra pradesh</option>
+                                <option value="">hyderabad</option>
+                                <option value="">delhi</option>
+                                <option value="">mumbai</option>
+                            </select>
+                        </li><br>
+                        <li><input type="submit" name="submit" value="submit"></li>
+                    </ul>
+                </form>
+            </center>
+                </fieldset>
+            </fieldset>
+    </body>
+</html>  
