@@ -1,0 +1,34 @@
+.container{
+    width: 1500px;
+    margin-left: 125px;
+    /* border: 2px solid; */
+}
+.container-1,.container-2{
+    width: 1500px;
+    /* border: 2px solid; */
+    padding : 10px;
+}
+img{
+    width: 100%;
+}
+.child1,.child2,.child3,.child4{
+    display : inline-block;
+    width : 300px;
+    position : relative;
+    margin: 10px;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin:0px;
+    position: absolute;
+    top:0px;
+    left : 0px;
+}
+.child5,.child6,.child7,.child8{
+    display : inline-block;
+    width : 300px;
+    position : relative;
+    margin: 10px;
+}
