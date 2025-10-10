@@ -1,0 +1,122 @@
+
+.container{
+    position:relative;
+    height:600px;
+    width:100%;
+    overflow: hidden;
+
+}
+.container>img{
+    width:100%;
+    height: 100%;
+}
+.container>h2{
+    display: inline-block;
+    position:absolute;
+    bottom: 10px;
+    left:3px;
+    font-size:2rem;
+    color:grey;
+}
+.container1{
+    width:97%;
+    height:600px;
+    padding: 10px;
+    margin-top: 50PX;
+    /* padding-left: 500px; */
+    overflow: hidden;
+}
+
+.container1>.child1{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-right: 50px;
+    margin-left: 250px;
+    vertical-align: top;
+}
+.container1>.child2{
+    display: inline-block;
+    width: 35%;
+    /* height: 100%; */
+    line-height:30px;
+    vertical-align: top;
+    
+}
+.child1>img{
+    width:100%;
+    height: 100%;
+}
+.child2 h2,.child2 h4{
+    margin-left: 20px;
+    letter-spacing:5px;
+}
+.container1>.child2 h2{
+    font-size:2rem;
+}
+.menu{
+    display: inline-block;
+    margin-top:100px;
+    height:600px;
+}
+.menu>.child1{
+    display:inline-block;
+    vertical-align: top;
+    height:100%;
+    margin-left:250px;
+    line-height:15px;
+    margin-right:60px;
+}
+.menu>.child2{
+    display:inline-block;
+    vertical-align: top;
+    height:100%;
+}
+.menu>.child2>img{
+    height:100%;
+}
+.menu>.child1>.mc0>h2,.menu>.child1 h4{
+    letter-spacing:5px;
+}
+.mc0,.mc1,.mc2,.mc3,.mc4,.mc5{
+    margin-bottom:50px;
+}
+.form input{
+    display:inline-block;
+    width:60%;
+    padding:10px;
+    margin-bottom:30px;
+}
+#id1{
+    width:20%;
+}
+.contact{
+    margin-top:100px;
+    margin-left:250px;
+}
+.contact>h2{
+    letter-spacing:5px;
+    margin-bottom:50px;
+    font-size:2rem;
+}
+.contact .c1{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:1.2rem;
+    color:rgb(116, 138, 165);
+}
+.menu p{
+    color: grey;
+}
+#id2{
+    color:grey;
+}
+.bottom{
+    bottom:0px;
+    height:100px;
+    margin-bottom:0;
+    background-color: rgb(247, 245, 245);
+}
+.bottom p{
+    padding-top:40px;
+}
