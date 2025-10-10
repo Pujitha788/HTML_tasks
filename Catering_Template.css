@@ -58,6 +58,7 @@
     display: inline-block;
     margin-top:100px;
     height:600px;
+    overflow:hidden;
 }
 .menu>.child1{
     display:inline-block;
@@ -71,6 +72,7 @@
     display:inline-block;
     vertical-align: top;
     height:100%;
+    
 }
 .menu>.child2>img{
     height:100%;
