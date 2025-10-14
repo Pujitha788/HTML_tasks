@@ -1,0 +1,110 @@
+.container{
+    background-color: black;
+    height:80px;
+    /* align-items:center; */
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+    min-width: 60px;
+    border-radius:20px;
+}   
+.child{
+    color:white;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center; 
+    flex:1 1 70px;
+    
+    
+}
+.child-10>.end-container{
+    padding:2px 2px;
+    background-color: red;
+    border-radius:10px;
+    font-weight: bold;
+    display: flex;
+    width:50px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+}
+.child i{
+    display: block;
+}
+.child p {
+    margin: 0;
+    font-size: 0.8em;
+}
+/* .container2{
+    height:60px;
+    border:2px solid;
+    position:fixed;
+    color: white;
+    min-width: 400px;
+    gap: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+.child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:white;
+}
+.child-2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:white;
+} */
+
+.container2 {
+    width:60px;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    margin-top: -5px; 
+    position: relative;
+    z-index: -1;
+}
+
+.container2 .child-1 {
+    flex-basis: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #28a745; 
+    padding: 10px 20px;
+    flex: 2;
+    color: white;
+}
+
+.container2 .child-1 p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.container2 .child-2 {
+    flex-basis:20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:35px;
+    gap: 5px;
+    background-color: #dc3545; 
+    padding: 10px 20px;
+    flex: 1; 
+    color: white;
+    font-weight: bold;
+}
+
+.container2 i {
+    font-size: 1.2em;
+}
