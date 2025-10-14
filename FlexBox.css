@@ -8,6 +8,7 @@
     gap:20px;
     min-width: 60px;
     border-radius:20px;
+    overflow:hidden;
 }   
 .child{
     color:white;
@@ -108,3 +109,4 @@
 .container2 i {
     font-size: 1.2em;
 }
+
